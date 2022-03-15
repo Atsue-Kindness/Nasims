@@ -10,13 +10,52 @@ body {
   color: white;
   border-radius: 0.3rem;
 }
-
+.parent-box .read-more {
+  color: #288855;
+}
+.sect-one-p,
+.sect-one-p2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+.sect-one-p2 {
+  width: 190px;
+  margin: 0 auto;
+}
+.sect-one-hover:hover {
+  text-decoration: underline;
+}
+.sect-one-hover {
+  text-decoration: none;
+}
+.section-two {
+  margin-top: 9rem;
+}
 @media (max-width: 768px) {
   .background-imagess {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(/images/hero3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .background-imagess2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/images/heroses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .background-imagess3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .paragraphs {
+    font-size: 0.8rem;
+    background-color: black;
+  }
+  .lading-page-logo {
+    width: 30%;
   }
 }
 @media (max-width: 575px) {
