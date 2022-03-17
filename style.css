@@ -90,6 +90,18 @@ footer {
 .add-height {
   line-height: 2;
 }
+.news-hover:hover {
+  text-decoration: underline;
+}
+
+.login-section-one {
+  background-color: #dbf9ea;
+  width: 24rem;
+  margin: 0 auto;
+}
+.login-para {
+  font-size: 0.8rem;
+}
 
 @media (max-width: 768px) {
   .background-imagess {
