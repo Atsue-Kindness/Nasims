@@ -144,7 +144,7 @@ footer {
     width: 19rem;
   } */
   .section-1-w {
-    width: 350px;
+    width: 330px;
     margin: 0 auto;
   }
   .about-us-imgd {
@@ -155,7 +155,7 @@ footer {
     width: 60%;
   }
   .sections-2-text {
-    width: 340px;
+    width: 330px;
     margin: 0 auto;
     padding: 1rem 0;
   }
@@ -186,6 +186,9 @@ footer {
   .sect-one-text p {
     text-align: start;
   }
+}
+.read-more {
+  font-size: 0.6rem;
 }
 
 @media (min-width: 769px) {
