@@ -14,7 +14,9 @@ body {
   color: #288855;
 }
 .sect-one-p,
-.sect-one-p2 {
+.sect-one-p2,
+.sect-two-p,
+.sect-three-p {
   font-size: 0.8rem;
   letter-spacing: 0.5px;
 }
@@ -31,6 +33,64 @@ body {
 .section-two {
   margin-top: 9rem;
 }
+.btn-one {
+  background-color: #288855;
+  padding: 0.7rem 3rem;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.section-three {
+  background-color: #f2fcf9;
+}
+
+.about-us {
+  color: #f9ae84;
+  font-size: 0.8rem;
+}
+
+.paragraphs {
+  font-size: 0.8rem;
+  background-color: black;
+}
+.june-text,
+.card-text-here {
+  font-size: 11px;
+}
+.border-add {
+  border-bottom: 2px solid #fbce66;
+  padding-bottom: 6px;
+}
+.text-tone-down {
+  color: rgb(167, 167, 167);
+}
+.icon-sets {
+  width: 0.7rem;
+  fill: white;
+}
+footer {
+  background-color: #07321b;
+}
+.footer-links li {
+  list-style: none;
+}
+.footer-links li a {
+  font-size: 0.8rem;
+}
+.footer-p {
+  font-size: 0.7rem;
+}
+.new-header {
+  background-color: #f9ecdc;
+  padding: 6rem 0;
+}
+.add-height {
+  line-height: 2;
+}
+
 @media (max-width: 768px) {
   .background-imagess {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -50,22 +110,66 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .paragraphs {
-    font-size: 0.8rem;
-    background-color: black;
-  }
-  .lading-page-logo {
-    width: 30%;
-  }
-}
-@media (max-width: 575px) {
   .nav-brand {
     visibility: hidden;
+  }
+
+  .lading-page-logo {
+    width: 8rem;
+  }
+
+  /*ABOUT US STYLING*/
+  .sect-one-img,
+  .sect-oneab-img {
+    width: 100%;
+  }
+  .img-div {
+    width: 19rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lading-page-logo {
+    width: 8rem;
+  }
+  .sect-oneab-img {
+    width: 100%;
+  }
+  .nav-brand {
+    visibility: visible;
+  }
+  .sect-one-text h3,
+  .sect-one-text p {
+    text-align: left;
+  }
+  .about-container {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 576px) {
-  .nav-brand {
-    visibility: visible;
-  }
+}
+
+/* ABOUT US PAGE STYLE */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/about1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7rem 0;
+}
+
+.sect-one-text h3,
+.sect-one-text p {
+  text-align: center;
+}
+.section-two-about {
+  background-color: #fffbf6;
+}
+.card-text-abt {
+  font-size: 0.8rem;
+}
+.sect-two-div {
+  margin-top: 5rem;
 }
