@@ -10,8 +10,9 @@ body {
   color: white;
   border-radius: 0.3rem;
 }
-.parent-box .read-more {
-  color: #288855;
+.position-class {
+  position: fixed;
+  top: 0;
 }
 .sect-one-p,
 .sect-one-p2,
@@ -20,18 +21,12 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.5px;
 }
-.sect-one-p2 {
-  width: 190px;
-  margin: 0 auto;
-}
+
 .sect-one-hover:hover {
   text-decoration: underline;
 }
 .sect-one-hover {
   text-decoration: none;
-}
-.section-two {
-  margin-top: 9rem;
 }
 .btn-one {
   background-color: #288855;
@@ -102,6 +97,9 @@ footer {
 .login-para {
   font-size: 0.8rem;
 }
+.home-anchor {
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   .background-imagess {
@@ -115,12 +113,16 @@ footer {
       url(/images/heroses.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 6.7rem;
+    padding-bottom: 6.7rem;
   }
   .background-imagess3 {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(/images/image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 6.7rem;
+    padding-bottom: 6.7rem;
   }
   .nav-brand {
     visibility: hidden;
@@ -129,18 +131,37 @@ footer {
   .lading-page-logo {
     width: 8rem;
   }
+  .buhari-img {
+    width: 70%;
+  }
 
   /*ABOUT US STYLING*/
-  .sect-one-img,
+  /* .sect-one-img,
   .sect-oneab-img {
     width: 100%;
   }
   .img-div {
     width: 19rem;
+  } */
+  .section-1-w {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .about-us-imgd {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .about-us-img {
+    width: 60%;
+  }
+  .sections-2-text {
+    width: 340px;
+    margin: 0 auto;
+    padding: 1rem 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .lading-page-logo {
     width: 8rem;
   }
@@ -158,9 +179,90 @@ footer {
     width: 70%;
     margin: 0 auto;
   }
+  .section-one-about {
+    display: flex;
+  }
+  .sect-one-text h3,
+  .sect-one-text p {
+    text-align: start;
+  }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 769px) {
+  .background-imagess .carousel-h1,
+  .background-imagess2 .carousel-h1,
+  .background-imagess3 .carousel-h1 {
+    color: #000000;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    width: 300px;
+  }
+  /* .background-imagess .carousel-h1 {
+    margin: 0 0 3rem 6rem;
+  } */
+  .carousel-p1 {
+    color: #000000;
+    text-align: left;
+  }
+  .carousel-one {
+    background-color: #fffbf6;
+  }
+  .home-anchor {
+    color: #000000;
+    text-align: left;
+  }
+  /* .add-margin-here {
+    margin-left: 15rem;
+    width: 100%;
+  } */
+  /* .section-header-images {
+    text-align: left;
+    width: 5rem;
+  } */
+  .buhari-img {
+    width: 20rem;
+  }
+
+  .container-margin {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .section-1-w {
+    width: 550px;
+  }
+  .section-one {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-two {
+    width: 70%;
+    margin: 9rem auto 0;
+  }
+  .sections-2-text {
+    width: 500px;
+    padding: 1rem 0;
+  }
+  .sections-2-text1 {
+    width: 500px;
+  }
+  .sections-2-text,
+  .sections-2-text1,
+  .about-us {
+    text-align: left;
+  }
+  .sect-two-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-us-img {
+    width: 20rem;
+  }
 }
 
 /* ABOUT US PAGE STYLE */
@@ -178,10 +280,21 @@ footer {
 }
 .section-two-about {
   background-color: #fffbf6;
+  margin-top: 2rem;
 }
 .card-text-abt {
   font-size: 0.8rem;
 }
 .sect-two-div {
   margin-top: 5rem;
+}
+.img-div-class {
+  width: 80%;
+  margin: 0 auto;
+}
+.sect-oneab-img {
+  width: 100%;
+}
+.sect-two-pp {
+  font-size: 0.9rem;
 }
