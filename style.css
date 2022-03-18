@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
 }
 .div-links div .btn-style {
-  padding: 1.2rem 5rem;
+  padding: 0.9rem 4rem;
   background-color: #288855;
   color: white;
   border-radius: 0.3rem;
@@ -27,7 +27,7 @@ body {
 }
 .btn-one {
   background-color: #288855;
-  padding: 0.7rem 3rem;
+  padding: 0.5rem 3rem;
   color: white;
   text-align: center;
   border: none;
@@ -197,6 +197,31 @@ footer {
   .carousel-h11 {
     padding: 0 3rem;
   }
+  .card-slider {
+    width: 21rem;
+  }
+  .card-images {
+    height: 15rem;
+  }
+  .apply-now-btn {
+    border: none;
+    background-color: #288855;
+    padding: 0.8rem 2rem;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    font-size: 12px;
+    margin-right: 0.6rem;
+  }
+  .learn-more-btn {
+    border: none;
+    background-color: #dbf9ea;
+    padding: 0.8rem 2rem;
+    color: #288855;
+    border-radius: 0.2rem;
+    font-size: 12px;
+    margin-right: 0.6rem;
+    font-weight: 600;
+  }
 }
 
 @media (min-width: 769px) {
@@ -257,6 +282,12 @@ footer {
   .portal-container {
     display: flex;
     gap: 8rem;
+  }
+  .card-slider {
+    width: 30rem;
+  }
+  .card-images {
+    height: 22rem;
   }
 }
 
@@ -360,6 +391,25 @@ footer {
   .about-us-img {
     width: 20rem;
   }
+  .apply-now-btn {
+    border: none;
+    background-color: #288855;
+    padding: 0.8rem 3rem;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    font-size: 12px;
+    margin-right: 0.6rem;
+  }
+  .learn-more-btn {
+    border: none;
+    background-color: #dbf9ea;
+    padding: 0.8rem 3rem;
+    color: #288855;
+    border-radius: 0.2rem;
+    font-size: 12px;
+    margin-right: 0.6rem;
+    font-weight: 600;
+  }
 }
 
 /* ABOUT US PAGE STYLE */
@@ -411,8 +461,16 @@ footer {
 .add-alignment {
   text-align: center;
 }
+.add-text-color {
+  color: #f9ae00;
+}
+.card-parapraph-text {
+  font-size: 0.8rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.card-slider {
+  border: none;
+}
 
 /* CARDSS */
-.card-slider {
-  width: 20rem;
-}
