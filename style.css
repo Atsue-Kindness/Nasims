@@ -107,16 +107,16 @@ footer {
       url(/images/heroses.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 85px;
-    padding-bottom: 85px;
+    padding-top: 81px;
+    padding-bottom: 81px;
   }
   .background-imagess3 {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(/images/image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
   .nav-brand {
     visibility: hidden;
@@ -471,6 +471,9 @@ footer {
 
 .card-slider {
   border: none;
+}
+.section-three {
+  padding: 3rem 0;
 }
 
 /* CARDSS */
