@@ -80,7 +80,7 @@ footer {
 }
 .new-header {
   background-color: #f9ecdc;
-  padding: 6rem 0;
+  padding: 7rem 0;
 }
 .add-height {
   line-height: 2;
@@ -159,6 +159,27 @@ footer {
     margin: 0 auto;
     padding: 1rem 0;
   }
+  .width-value {
+    width: 40%;
+  }
+
+  /* .textss-wrap {
+    width: 300px;
+    margin: 0 auto;
+  } */
+  .img-div-class {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sect-two-pp {
+    font-size: 0.9rem;
+    width: 320px;
+    margin: 0 auto;
+  }
+  .sect-two-ppx {
+    width: 300px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 769px) {
@@ -175,20 +196,57 @@ footer {
   .sect-one-text p {
     text-align: left;
   }
-  .about-container {
-    width: 70%;
-    margin: 0 auto;
-  }
+
   .section-one-about {
     display: flex;
+    align-items: center;
+    gap: 15rem;
   }
-  .sect-one-text h3,
-  .sect-one-text p {
-    text-align: start;
+
+  .card-textts {
+    text-align: left;
+    margin: 0 auto;
+  }
+  .sect-two-div {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .section-twoss-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .linkss-flex {
+    display: flex;
+    justify-content: start;
+  }
+  .sect-oneab-img {
+    width: 30rem;
+  }
+  .section-one-news {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+  .sect-two-ppx {
+    width: 500px;
+    margin: auto;
+  }
+  .portal-container {
+    display: flex;
+    gap: 8rem;
+  }
+  .put-marg2 {
+    margin-top: 6rem;
   }
 }
-.read-more {
-  font-size: 0.6rem;
+
+@media (min-width: 576px) {
+  .card-text-one {
+    width: 500px;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 769px) {
@@ -246,6 +304,20 @@ footer {
     width: 70%;
     margin: 9rem auto 0;
   }
+  .aboutus-content {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .positions-fixeds {
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .about-container {
+    width: 70%;
+    margin: 0 auto;
+  }
   .sections-2-text {
     width: 500px;
     padding: 1rem 0;
@@ -263,8 +335,8 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-  .about-us-img {
-    width: 20rem;
+  .img-div-class {
+    width: 23rem;
   }
 }
 
@@ -277,10 +349,10 @@ footer {
   padding: 7rem 0;
 }
 
-.sect-one-text h3,
+/* .sect-one-text h3,
 .sect-one-text p {
   text-align: center;
-}
+} */
 .section-two-about {
   background-color: #fffbf6;
   margin-top: 2rem;
@@ -291,13 +363,20 @@ footer {
 .sect-two-div {
   margin-top: 5rem;
 }
-.img-div-class {
-  width: 80%;
-  margin: 0 auto;
-}
+
 .sect-oneab-img {
   width: 100%;
 }
 .sect-two-pp {
   font-size: 0.9rem;
+  width: 320px;
+  /* margin: 0 auto; */
+}
+.read-more {
+  font-size: 0.8rem;
+}
+.put-marg {
+  margin-top: 8rem;
+  background-color: #fcfcfc;
+  padding: 8rem 0;
 }
