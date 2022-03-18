@@ -410,6 +410,12 @@ footer {
     margin-right: 0.6rem;
     font-weight: 600;
   }
+  .last-items {
+    background-color: #f2fcf9;
+  }
+  .secon-tolast {
+    background-color: #fcf4f2;
+  }
 }
 
 /* ABOUT US PAGE STYLE */
