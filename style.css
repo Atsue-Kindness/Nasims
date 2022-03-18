@@ -10,10 +10,7 @@ body {
   color: white;
   border-radius: 0.3rem;
 }
-.position-class {
-  position: fixed;
-  top: 0;
-}
+
 .sect-one-p,
 .sect-one-p2,
 .sect-two-p,
@@ -110,16 +107,16 @@ footer {
       url(/images/heroses.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 6.7rem;
-    padding-bottom: 6.7rem;
+    padding-top: 85px;
+    padding-bottom: 85px;
   }
   .background-imagess3 {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(/images/image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 6.7rem;
-    padding-bottom: 6.7rem;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .nav-brand {
     visibility: hidden;
@@ -131,6 +128,10 @@ footer {
   .buhari-img {
     width: 70%;
   }
+  .down-read {
+    display: flex;
+    justify-content: center;
+  }
 
   /*ABOUT US STYLING*/
   /* .sect-one-img,
@@ -140,7 +141,19 @@ footer {
   .img-div {
     width: 19rem;
   } */
+
+  .section-oneb {
+    margin-bottom: 6rem;
+  }
   .section-1-w {
+    width: 310px;
+    margin: 0 auto;
+  }
+  .section-1-w1 {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .sections-2-textb {
     width: 330px;
     margin: 0 auto;
   }
@@ -177,11 +190,25 @@ footer {
     width: 300px;
     margin: auto;
   }
+  .carousel-p1 {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .carousel-h11 {
+    padding: 0 3rem;
+  }
 }
 
 @media (min-width: 769px) {
   .lading-page-logo {
     width: 8rem;
+  }
+  .nasim-logo-1 {
+    text-align: left;
+  }
+  .carousel-h111 {
+    padding-right: 8rem;
+    line-height: 2;
   }
   .nav-brand {
     visibility: visible;
@@ -246,10 +273,10 @@ footer {
   .background-imagess3 .carousel-h1 {
     color: #000000;
     text-align: left;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 500;
     line-height: 1.3;
-    width: 300px;
+    width: 400px;
   }
   /* .background-imagess .carousel-h1 {
     margin: 0 0 3rem 6rem;
@@ -257,6 +284,9 @@ footer {
   .carousel-p1 {
     color: #000000;
     text-align: left;
+    width: 450px;
+    font-size: 0.9rem;
+    line-height: 2;
   }
   .carousel-one {
     background-color: #fffbf6;
@@ -265,14 +295,12 @@ footer {
     color: #000000;
     text-align: left;
   }
-  /* .add-margin-here {
+  .background-imagess,
+  .background-imagess2,
+  .background-imagess3 {
     margin-left: 15rem;
-    width: 100%;
-  } */
-  /* .section-header-images {
-    text-align: left;
-    width: 5rem;
-  } */
+  }
+
   .buhari-img {
     width: 20rem;
   }
@@ -292,7 +320,7 @@ footer {
     align-items: center;
   }
   .section-two {
-    width: 70%;
+    width: 80%;
     margin: 9rem auto 0;
   }
   .aboutus-content {
@@ -323,11 +351,14 @@ footer {
   }
   .sect-two-flex {
     display: flex;
-    justify-content: space-between;
+    gap: 8rem;
     align-items: center;
   }
   .img-div-class {
     width: 23rem;
+  }
+  .about-us-img {
+    width: 20rem;
   }
 }
 
@@ -376,4 +407,12 @@ footer {
 }
 .put-marg2 {
   margin: 6rem 0;
+}
+.add-alignment {
+  text-align: center;
+}
+
+/* CARDSS */
+.card-slider {
+  width: 20rem;
 }
