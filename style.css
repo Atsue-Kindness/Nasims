@@ -82,9 +82,6 @@ footer {
   background-color: #f9ecdc;
   padding: 7rem 0;
 }
-.add-height {
-  line-height: 2;
-}
 .news-hover:hover {
   text-decoration: underline;
 }
@@ -186,9 +183,6 @@ footer {
   .lading-page-logo {
     width: 8rem;
   }
-  .sect-oneab-img {
-    width: 100%;
-  }
   .nav-brand {
     visibility: visible;
   }
@@ -236,9 +230,6 @@ footer {
   .portal-container {
     display: flex;
     gap: 8rem;
-  }
-  .put-marg2 {
-    margin-top: 6rem;
   }
 }
 
@@ -363,6 +354,9 @@ footer {
 .sect-two-div {
   margin-top: 5rem;
 }
+.img-div2 {
+  width: 90%;
+}
 
 .sect-oneab-img {
   width: 100%;
@@ -376,7 +370,10 @@ footer {
   font-size: 0.8rem;
 }
 .put-marg {
-  margin-top: 8rem;
+  margin-top: 3rem;
   background-color: #fcfcfc;
-  padding: 8rem 0;
+  padding: 2rem 0;
+}
+.put-marg2 {
+  margin: 6rem 0;
 }
