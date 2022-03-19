@@ -1,0 +1,116 @@
+body {
+  font-family: lato, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 8rem;
+    padding: 5rem 0 1rem;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  .bannerss-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+  }
+  .bannerss-two {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/hero3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+  }
+  .bannerss-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 79px 0;
+  }
+  .carousel-header-1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width: 320px;
+    margin: 0 auto 1rem;
+  }
+  .carousel-parargraphs {
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    width: 310px;
+    margin: 0 auto 1rem;
+  }
+  .welcome-link {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .read-more-hero {
+    color: #288855;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero-banner-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 5rem; */
+  }
+  .give-bg {
+    background-color: #fffbf6;
+  }
+  .give-bg2 {
+    background-color: #fcf4f2;
+  }
+  .give-bg3 {
+    background-color: #f2fcf9;
+  }
+
+  .hero-logo {
+    width: 8rem;
+  }
+  .welcome-link {
+    text-decoration: underline;
+    margin: 1.6rem 0 0;
+  }
+  .carousel-header-1 {
+    /* padding-right: 35rem; */
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .carousel-header-2 {
+    width: 370px;
+  }
+  .carousel-header-3 {
+    width: 300px;
+  }
+  .carousel-parargraphs {
+    width: 500px;
+    font-size: 0.9rem;
+    line-height: 1.9;
+  }
+  .carousel-box-one {
+    padding-left: 7rem;
+  }
+  .read-more-hero {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #288855;
+    text-decoration: none;
+  }
+}
