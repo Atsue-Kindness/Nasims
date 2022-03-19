@@ -15,7 +15,7 @@ body {
 .sect-one-p2,
 .sect-two-p,
 .sect-three-p {
-  font-size: 0.8rem;
+  font-size: 16px;
   letter-spacing: 0.5px;
 }
 
@@ -33,7 +33,7 @@ body {
   border: none;
   border-radius: 0.3rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 .section-three {
   background-color: #f2fcf9;
@@ -41,11 +41,11 @@ body {
 
 .about-us {
   color: #f9ae84;
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 
 .paragraphs {
-  font-size: 0.8rem;
+  font-size: 16px;
   background-color: black;
 }
 .june-text,
@@ -70,10 +70,10 @@ footer {
   list-style: none;
 }
 .footer-links li a {
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 .footer-p {
-  font-size: 0.7rem;
+  font-size: 15px;
 }
 .new-header {
   background-color: #f9ecdc;
@@ -89,7 +89,7 @@ footer {
   margin: 0 auto;
 }
 .login-para {
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 .home-anchor {
   color: #ffffff;
@@ -304,7 +304,7 @@ footer {
   .background-imagess3 .carousel-h1 {
     color: #000000;
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 40px;
     font-weight: 500;
     line-height: 1.3;
     width: 400px;
@@ -316,7 +316,7 @@ footer {
     color: #000000;
     text-align: left;
     width: 450px;
-    font-size: 0.9rem;
+    font-size: 16px;
     line-height: 2;
   }
   .carousel-one {
@@ -397,7 +397,7 @@ footer {
     padding: 0.8rem 3rem;
     color: #ffffff;
     border-radius: 0.2rem;
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 0.6rem;
   }
   .learn-more-btn {
@@ -406,7 +406,7 @@ footer {
     padding: 0.8rem 3rem;
     color: #288855;
     border-radius: 0.2rem;
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 0.6rem;
     font-weight: 600;
   }
@@ -436,7 +436,7 @@ footer {
   margin-top: 2rem;
 }
 .card-text-abt {
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 .sect-two-div {
   margin-top: 5rem;
@@ -449,12 +449,12 @@ footer {
   width: 100%;
 }
 .sect-two-pp {
-  font-size: 0.9rem;
+  font-size: 16px;
   width: 320px;
   /* margin: 0 auto; */
 }
 .read-more {
-  font-size: 0.8rem;
+  font-size: 16px;
 }
 .put-marg {
   margin-top: 3rem;
@@ -471,7 +471,7 @@ footer {
   color: #f9ae00;
 }
 .card-parapraph-text {
-  font-size: 0.8rem;
+  font-size: 16px;
   padding: 1rem 0 2rem 0;
 }
 
