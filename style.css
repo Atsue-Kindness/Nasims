@@ -416,6 +416,9 @@ footer {
   .secon-tolast {
     background-color: #fcf4f2;
   }
+  .section-1-w1 {
+    width: 300px;
+  }
 }
 
 /* ABOUT US PAGE STYLE */
@@ -450,7 +453,7 @@ footer {
 }
 .sect-two-pp {
   font-size: 16px;
-  width: 320px;
+  width: 400px;
   /* margin: 0 auto; */
 }
 .read-more {
