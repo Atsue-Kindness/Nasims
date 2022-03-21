@@ -258,6 +258,9 @@ footer {
     gap: 3rem;
     align-items: center;
   }
+  .carouse {
+    padding: 5rem;
+  }
 
   .section-twoss-container {
     width: 60%;
