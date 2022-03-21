@@ -71,12 +71,15 @@ body {
   }
   .give-bg {
     background-color: #fffbf6;
+    padding: 6rem 0;
   }
   .give-bg2 {
     background-color: #fcf4f2;
+    padding: 6rem 0;
   }
   .give-bg3 {
     background-color: #f2fcf9;
+    padding: 6rem 0;
   }
 
   .hero-logo {
